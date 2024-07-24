@@ -95,7 +95,7 @@ const RankCheck = score => {
     }    
 
     // 生成したメッセージと一緒に文字列を返す
-    return `${score}文字打てたお(＾ω＾)\n${text}\n【OK】リトライ / 【キャンセル】終了`
+    return `${score}文字打てました！\n${text}\n【OK】リトライ / 【キャンセル】終了`
 };
 
 // ゲームを終了
